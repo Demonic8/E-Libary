@@ -13,30 +13,34 @@
         android:layout_width="163dp"
         android:layout_height="131dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="140dp"
-        android:src="@drawable/stilogo6"
-       />
+        android:layout_marginBottom="220dp"
+        android:src="@drawable/stilogo6" />
+
     <EditText
         android:id="@+id/StuID"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Student ID"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
         android:background="@drawable/curvature"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
+        android:textAlignment="center"
+        android:ems="10"
+        android:textSize="12dp"
+        android:hint="Ex. JuanPedro.25661@vigan.sti.edu.ph"
+        android:inputType="textPersonName"
+         />
+
     <EditText
         android:id="@+id/PWord"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/curvature"
+        android:textAlignment="center"
         android:ems="10"
         android:hint="Password"
-        android:textStyle="bold"
-        android:background="@drawable/curvature"
         android:inputType="textPassword"
-        android:layout_gravity="center"
-        android:layout_marginTop="70dp"/>
+         />
     <TextView
         android:layout_width="wrap_content"
         android:id="@+id/forgetPasswordClick"
@@ -54,7 +58,7 @@
         android:text="Login"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="310dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/sti"/>
 </FrameLayout>
