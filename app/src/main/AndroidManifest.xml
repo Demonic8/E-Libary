@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ELibary"
         tools:targetApi="31">
         <activity
+            android:name=".ChatBot"
+            android:exported="false" />
+        <activity
             android:name=".collection"
             android:exported="false" />
         <activity
