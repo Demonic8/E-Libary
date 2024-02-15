@@ -37,13 +37,13 @@
             android:layout_marginLeft="5dp"
             />
 
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="48dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/stilogo" />
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/stilogo6" />
 
     <TextView
         android:layout_width="wrap_content"

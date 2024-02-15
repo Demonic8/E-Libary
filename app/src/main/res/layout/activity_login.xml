@@ -14,7 +14,8 @@
         android:layout_height="131dp"
         android:layout_gravity="center"
         android:layout_marginBottom="140dp"
-        android:src="@drawable/stilogo" />
+        android:src="@drawable/stilogo6"
+       />
     <EditText
         android:id="@+id/StuID"
         android:layout_width="wrap_content"
