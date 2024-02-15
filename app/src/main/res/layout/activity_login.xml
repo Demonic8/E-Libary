@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
-    android:background="@color/YELLOWSTI"
+
     >
 
     <ImageView
@@ -22,6 +22,7 @@
         android:layout_height="41dp"
         android:layout_gravity="center"
         android:background="@drawable/curvature"
+        android:backgroundTint="@color/mwep"
         android:textAlignment="center"
         android:ems="10"
         android:textSize="12dp"
@@ -36,21 +37,25 @@
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
         android:background="@drawable/curvature"
+        android:backgroundTint="@color/mwep"
         android:textAlignment="center"
         android:ems="10"
+        android:textSize="12dp"
         android:hint="Password"
         android:inputType="textPassword"
          />
+
     <TextView
-        android:layout_width="wrap_content"
         android:id="@+id/forgetPasswordClick"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forget Password?"
-        android:textColor="@color/LightBlue"
-        android:textAlignment="center"
-        android:textSize="18sp"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"/>
+        android:layout_marginTop="270dp"
+        android:text="Forget Password?"
+        android:textAlignment="center"
+        android:textColor="@color/LightBlue"
+        android:textSize="18sp" />
+
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
@@ -58,7 +63,7 @@
         android:text="Login"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="150dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/sti"/>
 </FrameLayout>
