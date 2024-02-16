@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834309541569",
+    "project_id": "stielibrary-84409",
+    "storage_bucket": "stielibrary-84409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834309541569:android:3defe9891846b9536a8e40",
+        "android_client_info": {
+          "package_name": "com.example.e_libary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF6PWED7WcO67aq0sp4Tguw2LUuPC2ON0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

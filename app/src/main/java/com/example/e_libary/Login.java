@@ -23,36 +23,21 @@ public class Login extends AppCompatActivity {
     Button buttonLogin;
     private TextView forgetPasswordChange;
 
-    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        editTextUsername = findViewById(R.id.StuID);
-        editTextPassword = findViewById(R.id.PWord);
+
         buttonLogin = findViewById(R.id.buttonLogin);
         forgetPasswordChange = findViewById(R.id.forgetPasswordClick);
 
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String email,password;
-                email = String.valueOf(editTextUsername.getText());
-                password = String.valueOf(editTextUsername.getText());
-                if(TextUtils.isEmpty(email))
-                {
 
-
-                }
-
-
-            }
-        });
 
         forgetPasswordChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, Verifiying.class);
+                Intent intent = new Intent(Login.this, ForgottenPassword.class);
                 startActivity(intent);
             }
         });
