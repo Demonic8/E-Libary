@@ -31,7 +31,7 @@
         <activity
             android:name=".History"
             android:exported="false" />
-
+        
         <activity
             android:theme="@style/Theme.Design.Light.NoActionBar"
             android:name="MainActivity"
