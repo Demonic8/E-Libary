@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.e_libary" />
+                  <option name="mobileSdkAppId" value="1:834309541569:android:3defe9891846b9536a8e40" />
+                  <option name="projectId" value="stielibrary-84409" />
+                  <option name="projectNumber" value="834309541569" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
